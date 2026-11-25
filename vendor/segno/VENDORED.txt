@@ -1,0 +1,4 @@
+segno 1.6.1 (BSD-3-Clause, https://github.com/heuer/segno), from the PyPI sdist
+segno-1.6.1.tar.gz sha256 f23da78b059251c36e210d0cf5bfb1a9ec1604ae6e9f3d42f9a7c16d306d847e (matches PyPI).
+Copied: __init__.py encoder.py consts.py utils.py writers.py LICENSE. Not copied: cli.py helpers.py.
+One change: utils.py `from segno import encoder` -> `from . import encoder` (works under vendor/).
